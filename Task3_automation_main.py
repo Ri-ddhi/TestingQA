@@ -69,7 +69,7 @@ try:
         ("Ri@25", "P@ssword1", "4242424242424242", "(555) 015-2667", "NONALPHANUMERIC_USER"),
         ("Riddhima12", "p@ss12345", "4242424242424242", "(555) 015-2667", "NOUPPERCASE_PASSWORD"),
         ("Riddhima12", "P@ssword1", "4242424242 424242", "(555) 512-5444", "INVALID_CC"),
-        ("Riddhima12", "P@ssword1", "4242424242424242", "(555)015-2667", "INVALID_TELEPHONE")
+        ("Riddhima12", "P@ssword1", "4242424242424242", "(555) AB1-2667", "INVALID_TELEPHONE")
 
     ]
 
@@ -80,3 +80,4 @@ try:
 finally:
     human_delay(2)
     driver.quit()
+
